@@ -1,14 +1,9 @@
 # Gaussian Splatting on the Move: <br> Blur and Rolling Shutter Compensation for Natural Camera Motion
 
-[![arXiv preprint](https://img.shields.io/badge/arXiv-2403.13327-b31b1b?logo=arxiv&logoColor=red)](https://arxiv.org/abs/2403.13327)
 
 ## Installation
 
-Prerequisites: run on a Linux system with a recent NVidia RTX GPU with at least 8 GB of VRAM.
-Git must be installed.
-
- 1. Activate a Conda environment with PyTorch that [supports Nerfstudio](https://github.com/nerfstudio-project/nerfstudio/?tab=readme-ov-file#dependencies)
- 2. Possibly required, depending on your environment: `conda install -c conda-forge gcc=12.1.0`
+ 1. 先配置nerfstudio所需的前置条件
  3. Run `./scripts/install.sh` (see steps within if something goes wrong)
 
 ## Training with custom data
